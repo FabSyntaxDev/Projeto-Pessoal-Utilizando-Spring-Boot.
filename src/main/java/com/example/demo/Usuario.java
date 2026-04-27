@@ -44,7 +44,5 @@ public class Usuario {
     }
     
 
-
-
     // Gere os Getters e Setters (Botão direito > Source Action > Generate Getters and Setters)
 }
