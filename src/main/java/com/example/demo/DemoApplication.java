@@ -25,8 +25,9 @@ public class DemoApplication {
     @GetMapping("/add1")
     public String addUsuario() {
         Usuario novo = new Usuario();
-        novo.setNome("test33");
-        novo.setEmail("33test@gmail.com");
+        novo.setNome("Sophia");
+        novo.setEmail("ADMIN@gmail.com");
+		novo.setSenha("PICLES");
 
         repository.save(novo); // Comando que envia pro Docker
         return "Usuário salvo com sucesso no banco!";
